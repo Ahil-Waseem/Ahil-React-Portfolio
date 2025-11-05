@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Navbar.css"
-import Ahillogo from "../../assets/ahillogo.png"
+import Ahillogo from "../../assets/Ahillogo.png"
 const Navbar = () => {
   return (
     <div>
