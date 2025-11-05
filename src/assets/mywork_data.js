@@ -11,16 +11,19 @@ const mywork =[
         w_no:1,
         w_name: "Web Design",
         w_img: website1,
+        w_link: "https://www.mynirvana.in/nirvana-city-of-music/"
     },
     {
         w_no: 2,
         w_name: "Web Design",
         w_img: website2,
+        w_link: "https://rooted-to-you-kappa.vercel.app/"
     },
     {
         w_no: 3,
         w_name: "Web Design",
         w_img: website3,
+        w_link: "https://getunstoppable.in/"
     },
     // {
     //     w_no: 4,
@@ -31,11 +34,13 @@ const mywork =[
         w_no: 5,
         w_name: "Web Design",
         w_img: website5,
+        w_link: "https://ahil-waseem.github.io/Frontend-Theemwiz/"
     },
     {
         w_no: 6,
         w_name: "Web Design",
         w_img: website6,
+        w_link: "https://ahil-waseem.github.io/AmazonFrontend/"
     },
 ];
 
