@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    background-color: white;
+}
+.navbar img{
+    width: 200px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 1.2rem;
+    color: black;
+
+}
+.nav-connect{
+    color: white;
+    font-weight: 500;
+    /* border: 2px solid black; */
+    padding: .7rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    /* background: linear-gradient(90deg, #ff7f5fc0, #feb47bd3, #ff522fbb); */
+    background-color: black;
+    /* background: linear-gradient(90deg, #facc15, #f59e0b, #d9b906); */
+    transition: 0.5s;
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+}
