@@ -1,12 +1,3 @@
-/* Global safety */
-* {
-    box-sizing: border-box;
-}
-
-html,
-body {
-    overflow-x: hidden;
-}
 
 /* 🌙 Contact Section */
 .contact {

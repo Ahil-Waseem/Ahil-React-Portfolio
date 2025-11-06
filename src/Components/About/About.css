@@ -24,13 +24,13 @@
     gap: 4rem;
 }
 
-.about-left {
+/* .about-left {
     flex: 1;
-}
+} */
 
 .about-left img {
     width: 100%;
-    max-width: 500px;
+    /* max-width: 500px; */
     object-fit: contain;
     border-radius: 20px;
 }

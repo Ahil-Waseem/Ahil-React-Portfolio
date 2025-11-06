@@ -6,6 +6,10 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setMenuOpen(false); // close menu after clicking
+  };
+
   return (
     <nav className="navbar">
       <img src={Ahillogo} alt="Logo" className="logo" />
@@ -23,27 +27,27 @@ const Navbar = () => {
       {/* Nav Menu */}
       <ul className={`nav-menu ${menuOpen ? "open" : ""}`}>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#home">
+          <AnchorLink className="anchor-link" offset={80} href="#home" onClick={handleLinkClick}>
             Home
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#about">
+          <AnchorLink className="anchor-link" offset={80} href="#about" onClick={handleLinkClick}>
             About Me
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#services">
+          <AnchorLink className="anchor-link" offset={80} href="#services" onClick={handleLinkClick}>
             Services
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#projects">
+          <AnchorLink className="anchor-link" offset={80} href="#projects" onClick={handleLinkClick}>
             My Works
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#contact">
+          <AnchorLink className="anchor-link" offset={80} href="#contact" onClick={handleLinkClick}>
             Contact
           </AnchorLink>
         </li>
