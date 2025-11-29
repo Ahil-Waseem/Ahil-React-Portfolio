@@ -5,8 +5,15 @@ import website5 from '../assets/website-img-1.jpg'
 import website3 from '../assets/usp-project.png'
 import website2 from '../assets/rooted-to-you.png'
 import website1 from '../assets/nirvana-project.png'
+import website7 from '../assets/website6.jpeg'
 
 const mywork =[
+    {
+        w_no: 7,
+        w_name: "Web Design",
+        w_img: website7,
+        w_link: "https://newbombaypainting.in/"
+    },
     {
         w_no:1,
         w_name: "Web Design",
