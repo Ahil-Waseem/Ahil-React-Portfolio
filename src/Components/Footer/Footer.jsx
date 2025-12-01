@@ -37,7 +37,7 @@ const Footer = () => {
                 <div className="footer-right">
                     <h3>Contact Info</h3>
                     <p><i className="fa-solid fa-envelope"></i> ahilwaseen315@gmail.com</p>
-                    <p><i className="fa-solid fa-phone"></i> +91 98765 43210</p>
+                    <p><i className="fa-solid fa-phone"></i> +919793167187</p>
                     <p><i className="fa-solid fa-location-dot"></i> Navi Mumbai, India</p>
                 </div>
             </div>
