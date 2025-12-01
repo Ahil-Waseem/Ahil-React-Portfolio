@@ -48,7 +48,10 @@
     font-weight: 500;
     margin-bottom: 3rem;
 }
-
+.hero-action a{
+    text-decoration: none;
+    color: #fbc02d;
+}
 .hero-connect,
 .hero-resume {
     padding: 0.7rem 1.8rem;

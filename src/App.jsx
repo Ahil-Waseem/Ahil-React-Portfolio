@@ -19,6 +19,15 @@ function App() {
       <MyWork/>
       <Contact/>
       <Footer/>
+      <a
+        href="https://wa.me/919793167187"
+        className="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fa-brands fa-whatsapp"></i>
+      </a>
+
     </div>
   )
 }

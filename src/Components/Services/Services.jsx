@@ -3,7 +3,6 @@ import "./Services.css";
 import services_data from "../../assets/services_data";
 
 const Services = () => {
-  // Track which service is expanded
   const [expanded, setExpanded] = useState(null);
 
   const handleToggle = (id) => {
@@ -11,33 +10,53 @@ const Services = () => {
   };
 
   return (
-    <div id="services" className="services">
-      <div className="services-title">
-        <h1>My Services</h1>
-      </div>
+    <section id="services" className="services" aria-labelledby="services-title">
+
+      {/* Section Title */}
+      <header className="services-title">
+        <h2 id="services-title">My Services</h2>
+      </header>
+
       <div className="services-container">
         {services_data.map((item) => {
           const isExpanded = expanded === item.id;
-          const shortText = item.description.slice(0, 100) + "...";
+          const shortText = item.description.slice(0, 120) + "...";
 
           return (
-            <div className="service-card" key={item.id}>
-              <div className="service-icon">{item.icon}</div>
-              <div className="service-title">{item.title}</div>
-              <div className="service-description">
-                {isExpanded ? item.description : shortText}
+            <article
+              key={item.id}
+              className="service-card"
+              aria-label={`Service: ${item.title}`}
+            >
+
+              {/* Icon */}
+              <div className="service-icon" aria-hidden="true">
+                {item.icon}
               </div>
+
+              {/* Service Title */}
+              <h3 className="service-title">{item.title}</h3>
+
+              {/* Short / Full Description */}
+              <p className="service-description">
+                {isExpanded ? item.description : shortText}
+              </p>
+
+              {/* Read More Button */}
               <button
                 className="read-more-btn"
                 onClick={() => handleToggle(item.id)}
+                aria-expanded={isExpanded}
+                aria-controls={`service-desc-${item.id}`}
               >
                 {isExpanded ? "Read Less" : "Read More"}
               </button>
-            </div>
+
+            </article>
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

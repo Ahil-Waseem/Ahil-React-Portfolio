@@ -53,7 +53,15 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="nav-connect">Connect With Me</div>
+      {/* <div className="nav-connect">Connect With Me</div> */}
+      <a
+        href="tel:+919793167187"
+        className="nav-connect"
+        aria-label="Call Ahil Waseem"
+      >
+        Connect With Me
+      </a>
+
     </nav>
   );
 };
