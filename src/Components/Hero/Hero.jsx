@@ -15,12 +15,12 @@ const Hero = () => {
 
       {/* Main Heading */}
       <h1 id="hero-title">
-        <span>I’m Ahil Waseem,</span> Full Stack Developer based in India
+        <span>I’m Ahil Waseem,</span> Full Stack Developer and Digital Marketing (SEO Expert) based in India
       </h1>
 
       {/* Short SEO-Friendly Intro */}
       <p>
-        I am a Full Stack Developer with 1.7 years of experience in Frontend Development, Web Development, Software Development, and Technical SEO. I completed my Full Stack Diploma from IIHT Institute, Vashi, and hold a graduation degree from JNCU University.
+        I am a Full Stack Developer with 3+ years of experience in Frontend Development, Web Development, Software Development, and Technical SEO. I completed my Full Stack Diploma from IIHT Institute, Vashi, and hold a graduation degree from JNCU University.
       </p>
 
       {/* Action Buttons */}
